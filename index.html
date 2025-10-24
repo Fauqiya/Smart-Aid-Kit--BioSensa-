@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Aid Kit — "BioSensa"</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="brand">A Lab, A Medic, A Lifeline in ONE KIT!</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#solution">Solution</a></li>
+    <li><a href="#working">Working</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#specs">Specs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <h1>Smart Aid Kit — "BioSensa"</h1>
+  <p>Portable diagnostic and monitoring device for low-resource healthcare</p>
+  <a href="#about" class="btn">Learn More</a>
+  <img src="image_folder/biosensa.png" alt="Smart Image">
+</section>
+
+<!-- About Section -->
+<section id="about" class="container about">
+  <img src="image_folder/challenge.jpg" alt="Challenge">
+  <div class="text">
+    <h2>About / Problem Statement</h2>
+    <p>Healthcare access in rural and semi-urban regions remains one of the most pressing challenges in India and other developing countries. Limited infrastructure, lack of diagnostic laboratories, and shortage of trained personnel often result in delayed diagnosis and inadequate treatment of common and chronic diseases. The Smart Aid Kit addresses this gap with an innovative, portable, and cost-effective solution.</p>
+  </div>
+</section>
+
+<!-- Solution Section -->
+<section id="solution" class="container">
+  <h2>Proposed Solution / System Overview</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Paper-Based Diagnostic System (µPADs)</h3>
+      <p>Detects multiple diseases (Glucose, Malaria, Dengue, Typhoid) with disposable paper-based tests. Sample is applied → color change → scanned via mobile app.</p>
+      <img src="image_folder/strip.png" alt="Strip">
+    </div>
+    <div class="card">
+      <h3>Health Monitoring Module</h3>
+      <p>Compact module measures heart rate, oxygen saturation, and temperature, displaying results on LCD or mobile app. Easy to use for field healthcare providers.</p>
+      <img src="image_folder/monitoring.png" alt="Strip">
+    </div>
+  </div>
+</section>
+
+<!-- Working Mechanism -->
+<section id="working" class="container">
+  <h2>Working Mechanism</h2>
+  <div class="steps">
+    <div class="step">
+      <h4>Step 1: Start Kit</h4>
+      <p>Open the Smart Aid Kit and prepare it for sample collection or monitoring.</p>
+      <img src="image_folder/step1.png" alt="Step 1">
+    </div>
+    <div class="step">
+      <h4>Step 2: Collect Sample / Activate</h4>
+      <p>Device collects sample or starts monitoring vital signs automatically.</p>
+      <img src="image_folder/step2.png" alt="Step 2">
+    </div>
+    <div class="step">
+      <h4>Step 3: Smart Processing</h4>
+      <p>Kit analyses data and generates result on the display or mobile app.</p>
+      <img src="image_folder/step3.png" alt="Step 3">
+    </div>
+    <div class="step">
+      <h4>Step 4: Notification / Alert</h4>
+      <p>Critical results are sent to caregivers or doctors for action.</p>
+      <img src="image_folder/step4.png" alt="Step 4">
+    </div>
+  </div>
+  <div class="video-container">
+    <h3>Video Demo</h3>
+    <video controls>
+     <source src="image_folder/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<!-- Impact Section -->
+<section id="impact" class="container">
+  <h2>Synergistic Impact / Advantages</h2>
+  <div class="impact">
+    <div class="impact-card">
+      <h4>Early Detection</h4>
+      <p>Detects early signs of illness for timely intervention.</p>
+    </div>
+    <div class="impact-card">
+      <h4>Chronic Monitoring</h4>
+      <p>Continuous monitoring for chronic diseases like diabetes and hypertension.</p>
+    </div>
+    <div class="impact-card">
+      <h4>Faster Decisions</h4>
+      <p>Enables quick medical decisions in emergency scenarios.</p>
+    </div>
+    <div class="impact-card">
+      <h4>Reduce Hospital Load</h4>
+      <p>Reduces dependency on centralized labs and tertiary hospitals.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Technical Specifications -->
+<section id="specs" class="container">
+  <h2>Technical Specifications</h2>
+  <table>
+    <tr><th>Parameter</th><th>Details</th></tr>
+    <tr><td>Controller</td><td>ESP32 / STM32</td></tr>
+    <tr><td>Sensors</td><td>Heart Rate, SpO₂, Temperature</td></tr>
+    <tr><td>Communication</td><td>Bluetooth</td></tr>
+    <tr><td>Display</td><td>LCD Screen</td></tr>
+    <tr><td>Power</td><td>Battery Operated</td></tr>
+    <tr><td>Diagnostic Medium</td><td>µPADs</td></tr>
+  </table>
+</section>
+
+<!-- Future Scope -->
+<section id="future" class="container">
+  <h2>Future Scope / Scalability</h2>
+  <ul>
+    <li>Integration with AI analytics for predictive healthcare</li>
+    <li>Cloud data storage and remote monitoring</li>
+    <li>Additional µPAD tests for cholesterol, kidney function, etc.</li>
+    <li>IoT integration for telemedicine and emergency alerts</li>
+  </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container">
+  <h2>Contact / Demo Request</h2>
+  <form id="demoForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message (optional)" rows="4"></textarea>
+    <button class="btn" type="submit">Request Demo</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Fauqiya Shaikh — Smart Aid Kit-"BioSensa". All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
