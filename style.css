@@ -67,7 +67,7 @@ nav ul li a:hover{color:#ffcc00;}
 
 .hero {
   background: linear-gradient(#b2e3c4, #d4f1e3),
-    url('image_folder/biosensa.png" alt= Smart Image') center/cover no-repeat;
+    url('biosensa.png" alt= Smart Image') center/cover no-repeat;
   color: #fff;
   padding: px; /* More padding at bottom for visual spacing */
   text-align: center;
@@ -159,3 +159,4 @@ footer{background:#0b3d91; color:#fff; text-align:center; padding:20px;}
 
 /* Responsive */
 @media(max-width:768px){.about{flex-direction:column;}}
+
